@@ -1,0 +1,106 @@
+/* Color Palette
+#C9DDF2 - Ocean Blue
+#D9CBB8 - Sand
+#B8C4A9 - Sage
+#C9A89A - Dusty Clay
+#F1E7D3 - Cream
+#F7F5F0 - Soft Off-White
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #6F665E;
+    background: #F1E7D3;
+    
+    
+}
+
+h1, h2, h3 {
+    font-family: "IBM Plex Serif", serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+
+/* Entire Doc 
+------------------------------------*/
+.resume {
+    background: #F7F5F0;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header,
+.work,
+.education,
+footer {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* Header
+------------------------------------*/
+header {
+    background: #B8C4A9;
+    color: #3F3A35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text {
+    width: 65%;
+}
+
+.profile-img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #C9DDF2;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #C9A89A;
+    color: #3F3A35;
+}
+
+/* Footer 
+------------------------------------*/
+footer {
+    background: #D9CBB8;
+    color: #3F3A35;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
